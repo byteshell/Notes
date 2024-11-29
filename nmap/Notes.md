@@ -15,3 +15,9 @@ nmap -sV <ip>
 ```
 nmap -O <ip>
 ```
+
+# Scan all ports
+
+```
+nmap -p- <ip>
+```
