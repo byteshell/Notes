@@ -10,3 +10,10 @@ redis-cli -h <ip>
 ```
 info
 ```
+
+# Select database
+
+- In Redis' CLI:
+```
+select
+```
