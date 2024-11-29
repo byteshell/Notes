@@ -9,3 +9,9 @@ nmap <ip>
 ```
 nmap -sV <ip>
 ```
+
+# Scan ports with OS detection
+
+```
+nmap -O <ip>
+```
