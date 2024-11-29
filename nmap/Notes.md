@@ -1,0 +1,5 @@
+# Scan ports
+
+```
+nmap <ip>
+```
