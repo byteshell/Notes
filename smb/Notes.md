@@ -8,3 +8,9 @@
 ```
 smbclient -L <ip>
 ```
+
+# Connect to the host and share
+
+```
+smbclient \\\\<ip>\\<share>
+```
