@@ -17,3 +17,17 @@ info
 ```
 select
 ```
+
+# Retrieve count of keys in database
+
+- In Redis' CLI:
+```
+keys *
+```
+
+# Get key
+
+- In Redis' CLI:
+```
+get <key>
+```
