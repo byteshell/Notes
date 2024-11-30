@@ -1,0 +1,5 @@
+# Directory busting
+
+```
+gobuster <dir>
+```
