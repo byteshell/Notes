@@ -33,3 +33,9 @@ nmap -Pn <ip>
 ```
 nmap --min-rate=1000 <ip>
 ```
+
+# Send output of the scan to the file
+
+```
+nmap -oN <filename> <ip>
+```
