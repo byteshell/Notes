@@ -24,8 +24,8 @@ PROMPT OFF
 mget *
 ```
 
-# Smbmap usage
+# Connect to host and share using username and password
 
 ```
-smbmap -d <domain_name> -u <username> -p <password> -H <ip>
+smbclient -U <username>%<password> //<ip>/<share>
 ```
