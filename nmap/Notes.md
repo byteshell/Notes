@@ -21,3 +21,9 @@ nmap -O <ip>
 ```
 nmap -p- <ip>
 ```
+
+# Specify the minimum number of packets (speeds up the scan as the number goes higher)
+
+```
+gobuster --min-rate=1000
+```
