@@ -21,9 +21,3 @@ gobuster -w <path_to_wordlist>
 ```
 gobuster dir -u <URL> -w <wordlist> 2>&1 | grep -v "(404\|403)"
 ```
-
-# Send output to the file
-
-```
-gobuster dir -u <URL> -w <wordlist> 2>&1 | grep -v "(404\|403)" > <filename>
-```
