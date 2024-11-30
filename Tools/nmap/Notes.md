@@ -22,6 +22,12 @@ nmap -O <ip>
 nmap -p- <ip>
 ```
 
+# Scan ports with ping probes (if original script for scan does not work)
+
+```
+nmap -Pn <ip>
+```
+
 # Specify the minimum number of packets (speeds up the scan as the number goes higher)
 
 ```
