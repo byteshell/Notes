@@ -17,3 +17,17 @@ tar xvf mongosh-2.3.2-linux-x64.tgz
 ```
 show dbs;
 ```
+
+# Show collections
+
+- In mongosh:
+```
+show collections;
+```
+
+# Command to dump contents of all documents within the collection (pretty format)
+
+- In mongosh:
+```
+db.flag.find().pretty();
+```
