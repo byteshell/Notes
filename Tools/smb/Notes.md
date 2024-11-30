@@ -23,3 +23,9 @@ RECURSE ON
 PROMPT OFF
 mget *
 ```
+
+# Smbmap usage
+
+```
+smbmap -d <domain_name> -u <username> -p <password> -H <ip>
+```
