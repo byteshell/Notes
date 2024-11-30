@@ -4,4 +4,14 @@
 
 # Download file from ftp
 
-- Use "get" keyword and pass the file
+- In ftp's CLI:
+```
+get <filename>
+```
+
+# List files in current directory
+
+- In ftp's CLI:
+```
+dir (or ls)
+```
