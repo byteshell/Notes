@@ -25,6 +25,13 @@ show dbs;
 show collections;
 ```
 
+# Use database
+
+- In mongosh:
+```
+use <database_name>;
+```
+
 # Command to dump contents of all documents within the collection (pretty format)
 
 - In mongosh:
