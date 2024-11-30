@@ -14,3 +14,12 @@ smbclient -L <ip>
 ```
 smbclient \\\\<ip>\\<share>
 ```
+
+# Recursively retrieve files without prompt
+
+- In smbclient's CLI:
+```
+RECURSE ON
+PROMPT OFF
+mget *
+```
