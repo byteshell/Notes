@@ -21,3 +21,9 @@ gobuster -w <path_to_wordlist>
 ```
 gobuster dir -u <URL> -w <wordlist> 2>&1 | grep -v "(404\|403)"
 ```
+
+# Subdomains busting
+
+```
+gobuster dns -d example.com -w /path/to/your/wordlist.txt
+```
