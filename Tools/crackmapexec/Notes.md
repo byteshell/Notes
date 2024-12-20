@@ -15,9 +15,3 @@ crackmapexec smb <ip> -u <username> -p <password> --shares
 ```
 crackmapexec winrm <ip> -u <username> -p <password>
 ```
-
-# Send Bloodhound
-
-```
-crackmapexec ldap <ip> -u <username> -p <password> --bloodhound --collection All --dns-server <ip>
-```
