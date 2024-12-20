@@ -5,3 +5,9 @@
 ```
 john -w=<wordlist> <file>
 ```
+
+# Convert .psafe to john
+
+```
+pwsafe2john <psafe_file> > pwsafe_hash.txt
+```
