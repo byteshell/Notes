@@ -43,3 +43,13 @@ GPPstillStandingStrong2k18
 2. Run “timedatectl set-ntp off” to disable the Network Time Protocol from auto-updating
 3. Run “rdate -n [IP of Target]” to match your date and time with the date and time of the your target machine
 4. Run your Kerberoast command (which should be GetUserSPNs.py [Domain Name].local/[username]:[password] -dc-ip [Domain Controller IP] -request)
+
+# Fixing pywhisker
+
+```
+pip uninstall pyOpenSSL asgiref
+sudo apt-get remove python3-asgiref
+pip install asgiref==3.7.2
+pip install pyOpenSSL==22.1.0 mitmproxy-rs==0.5.1 urwid-mitmproxy==2.1.1
+pip install --upgrade impacket
+```
