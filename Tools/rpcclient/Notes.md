@@ -1,5 +1,5 @@
 # Enumerate users
 
 ```
-rpcclient -U <username> <ip> -c 'enumdomusers'
+rpcclient -U <username%password> <ip> -c 'enumdomusers'
 ```
