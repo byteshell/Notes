@@ -1,0 +1,5 @@
+# Check permissions
+
+```
+whoami /priv
+```
